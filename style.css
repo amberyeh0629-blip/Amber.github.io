@@ -3,16 +3,16 @@
    ✏️ 想換顏色或字體，只要改下面 :root 裡的變數
    ============================================================= */
 :root {
-  --sidebar-bg: #111827;   /* 左側欄底色 */
-  --sidebar-ink: #e5e7eb;  /* 左側欄文字 */
-  --sidebar-muted: #9ca3af;
-  --bg: #f5f6fa;           /* 主要內容背景 */
+  --sidebar-bg: #0b1426;   /* 左側欄底色 */
+  --sidebar-ink: #e2e8f0;  /* 左側欄文字 */
+  --sidebar-muted: #94a3b8;
+  --bg:	#f3f6fb;           /* 主要內容背景 */
   --surface: #ffffff;      /* 卡片底色 */
-  --ink: #111827;          /* 主要文字 */
-  --muted: #6b7280;        /* 次要文字 */
-  --line: #e5e7eb;         /* 分隔線 */
-  --accent: #4f46e5;       /* 主色（按鈕、重點） */
-  --accent-soft: #eef2ff;  /* 主色淺色版（標籤底色） */
+  --ink: #0f172a;          /* 主要文字 */
+  --muted: #64748b;        /* 次要文字 */
+  --line: #e2e8f0;         /* 分隔線 */
+  --accent: #2563eb;       /* 主色（按鈕、重點） */
+  --accent-soft: #dbeafe;  /* 主色淺色版（標籤底色） */
 
   --font-body: "Plus Jakarta Sans", system-ui, -apple-system, "PingFang TC", "Microsoft JhengHei", sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
@@ -57,7 +57,7 @@ code { font-family: var(--font-mono); font-size: 0.85em; background: var(--accen
 }
 .avatar { width: 112px; height: 112px; border-radius: 50%; object-fit: cover; border: 3px solid rgba(255,255,255,0.15); }
 .name { font-size: 1.6rem; margin-top: 20px; }
-.role { color: #a5b4fc; font-weight: 500; margin: 4px 0 0; }
+.role { color: #60a5fa; font-weight: 500; margin: 4px 0 0; }
 .location { color: var(--sidebar-muted); font-size: 0.9rem; margin: 2px 0 0; }
 
 .side-nav { list-style: none; padding: 0; margin: 32px 0; }
@@ -94,7 +94,7 @@ code { font-family: var(--font-mono); font-size: 0.85em; background: var(--accen
 /* 自我介紹 */
 .eyebrow { color: var(--accent); font-weight: 600; margin: 0 0 8px; }
 .headline { font-size: clamp(1.8rem, 3.4vw, 2.6rem); letter-spacing: -0.02em; max-width: 22ch; }
-.hl { background: linear-gradient(transparent 62%, #c7d2fe 62%); }
+.hl { background: linear-gradient(transparent 62%, #bfdbfe 62%); }
 .lead { color: var(--muted); font-size: 1.05rem; max-width: 62ch; }
 
 .stats { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-top: 28px; }
@@ -164,7 +164,7 @@ code { font-family: var(--font-mono); font-size: 0.85em; background: var(--accen
 .skill-group h3 { font-size: 0.95rem; margin-bottom: 10px; }
 
 /* ---------- 聯絡 & 頁尾 ---------- */
-.contact-card { padding: 32px; text-align: center; background: linear-gradient(135deg, #eef2ff, #ffffff); }
+.contact-card { padding: 32px; text-align: center; background: linear-gradient(135deg, var(--accent-soft), #ffffff); }
 .contact-card h2 { font-size: 1.6rem; }
 .contact-card p { color: var(--muted); }
 .site-footer { color: var(--muted); font-size: 0.85rem; padding: 12px 0 8px; }
